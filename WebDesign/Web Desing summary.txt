@@ -1,0 +1,67 @@
+HTML5
+ W1
+  HTML file creation
+  Tags and syntax
+  Semantic Tags
+  Template Page
+  Images
+  Hyperlinks
+  Multimedia
+  Tables
+ W2
+  Accesibility
+  Validating the site
+  Site hosting
+  cPanel
+  Secure File Transfer Protocol
+
+CSS3
+ W1
+  colors
+  text styling
+  display and visibility
+ W2
+  box model
+  links and lists styling
+  advanced selectors
+  browser capabilities
+  designing for accesibility
+ W3
+  pseudo classes and elements
+  transitions
+  transforms
+  positioning
+ W4
+  styling tables
+  navigation menus
+  accesible navigation
+  accesibility of headings
+
+JS
+ W1
+  DOM
+  OOP
+  output
+  create and debug own output
+  variables 
+  data types
+  operators and expressions
+ W2
+  functions
+  code placement
+  folder structure/organizing code
+  events / functions
+ W3
+  arrays
+  js arrays
+  js iteration
+  flow control
+  loops/conditionals
+  adv. con.
+  commmon errors
+ W4
+  simple forms
+  simple validation
+  comparing two inputs
+  checkboxes and radio buttons    
+      

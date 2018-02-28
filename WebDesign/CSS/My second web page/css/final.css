@@ -1,0 +1,138 @@
+header{
+	color: #FFFFFF;
+	background-color:#4da6ff;
+	padding:25px 50px 50px 100px;
+	background-image: url("../images/flywheel.jpg");
+	background-size: 1390px;
+	background-repeat: no-repeat;
+	padding: 10px;
+	}
+
+h1{
+	font-size: 175%;
+	font color: #992600;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+a.active{
+	color: #1b1bad;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+
+nav a{
+	font-size: 130%;
+	color: #000000;
+	background-color: rgba(213, 218, 226, 0.6);
+	text-align: center;
+	display: inline-block;
+	width: 15%;
+	padding: 25px 25px;
+	border: 10px;
+	border-radius: 10px;
+	margin: 20px;
+    text-decoration: None;
+}
+
+.left{
+	display:inline-block;
+	background-color: #99ccff;
+	width: 330px;
+	height: 950px;
+	flex-direction: column-reverse;
+	float: left;
+	padding: 0px 20px 20px 20px;
+}
+
+.right{
+	display:inline-block;
+    width: 950px;
+    padding-top: 0px;
+    margin-left: 0px;
+    font-size: 125%;
+    float: right;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+
+img{
+	max-height: 250px;
+	max-width: 250px;
+	margin: 40px;
+	border-style: solid;
+	border-color: #020202;
+}
+
+nav a:hover{background-color: #ffffff;
+}
+
+h2{
+	color: #020202;
+	font-size: 200%;
+	text-transform: uppercase;
+}
+
+body{
+	padding: 25px 50px 75px 100px;
+	margin: 25px 50px 75px 100px;
+	font-size: 10px;
+	width: 100%;
+	font-family: arial, Serif;
+}
+
+table {
+	background-color: #FFFFFF;
+	align-self: center;
+	margin: 0 auto;
+	font-family: arial, Serif;
+	font-size: 12px;
+	font-weight: lighter;
+	width: 75%;
+}
+
+table tr, td {
+	border: 2px solid #FFFFFF;
+	padding: 15px;
+	text-align: center;
+	font-color: #000000;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+table tr:nth-child(even) {
+	background-color: rgba(153, 204, 255, 0.8);
+	background: linear-gradient(#3399ff, #e6e6ff);
+}
+
+table tr:first-child {
+	padding: 15px;
+	height: 50px;
+	width: 50px
+    border-bottom: 10px
+	border-radius: 10px;
+    border-top-right-radius: 30px;
+}
+
+table tr:hover {
+	background-color:  rgba(30, 82, 231, 1);
+	font-weight: bold;
+}
+
+table td:first-child {
+	text-align: left;
+}
+
+th {
+	border-bottom: 1px solid #258ee0;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-top: 1px solid #fff;
+	background: #466368;
+	background: linear-gradient(#3399ff, #e6e6ff);
+	padding: 20px;
+	color: #fff;
+	border-radius: 15px 15px 0 0;
+	border-bottom: 4px solid #258ee0;
+	font-size: 16px;
+}
