@@ -12,8 +12,7 @@ Histórico de modificações:
 */
 
 var year = 2016;
-var cloudCover = 100;                   //si usamos el 100% obtendremos toda la información disponible
-
+var cloudCover = 100;                   
 var t0 = String(year) + '-01-01';
 var t1 = String(year) + '-12-31';
 
@@ -107,7 +106,7 @@ var collection = ee.ImageCollection('LANDSAT/LC8_L1T_TOA')
     .filterMetadata('CLOUD_COVER', 'less_than', 100.0)
     .select(0);
     
-// Centralizar
+// Center
 Map.centerObject(pais,5);
 
 addToMap(collection.reduce('count'), {min:2, max:23,'palette':'FFB6C1,DC143C,DC143C,FF0000','opacity': 0.7 },"Numero de imagenes disponibles");
@@ -116,5 +115,3 @@ print(paises)
  *
  */
  
- //Los resultados se pueden guardar en un archivo csv yendo a la pestaña Tasks y haciendo click en Run al lado de la tabla.
- //Los resultados pueden ser exportados a Drive, y luego hay que transponerlos
