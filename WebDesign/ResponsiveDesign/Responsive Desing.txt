@@ -1,4 +1,4 @@
-Quices Responsive Design
+Quices Responsive Design course of Web Design for Everybody specialization in coursera.
 
 Quiz 1
 
@@ -44,7 +44,7 @@ Quiz 1
 14 An _______ is the size of type as computed relative to the type size of the parent element
 	em
 
-15 A _______ is the size of type as computed relative to the type size of the top level ìhtmlî element rather than a parent element.
+15 A _______ is the size of type as computed relative to the type size of the top level ‚Äúhtml‚Äù element rather than a parent element.
 	rem
 
 16 Which measurement is easier and comfortable for the designer/developer to use when coding their CSS but does not provide the best experience for the user?
